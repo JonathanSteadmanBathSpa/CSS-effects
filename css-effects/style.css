@@ -43,6 +43,14 @@ img {
 #img-C:hover{
     filter: hue-rotate(0deg);
 }
+button{
+    box-shadow:1px 2px 4px white;
+    position: relative;
+}
+button:hover{
+    bottom:10px;
+    
+}
 /*Hover is when your user hover accross the image. Then the effect will go away.*/
 /*Image effects can have more then one effects
 filter: grayscale(100%) blur(4px);
