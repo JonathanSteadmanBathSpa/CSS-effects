@@ -22,13 +22,23 @@ img {
 #img-A{
     filter:blur(2px);
 }
+#img-A:hover{
+    filter:blur(0px);
+}
 /*Make the image black and white.*/
 #img-B{
     filter:grayscale(100%);
 }
+#img-B:hover {
+    filter:grayscale(0%);
+}
 #img-C{
     filter: hue-rotate(543534234455345938deg);
 }
+#img-C:hover{
+    filter: hue-rotate(0deg);
+}
+/*Hover is when your user hover accross the image. Then the effect will go away.*/
 /*Image effects can have more then one effects
 filter: grayscale(100%) blur(4px);
 */
