@@ -2,7 +2,7 @@ body {
     margin: 0; /* Remove the default margin */
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
-    
+
 }
 
 #image-row { 
@@ -18,7 +18,20 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+/*Make the image have a blur effect*/
+#img-A{
+    filter:blur(2px);
+}
+/*Make the image black and white.*/
+#img-B{
+    filter:grayscale(100%);
+}
+#img-C{
+    filter: hue-rotate(543534234455345938deg);
+}
+/*Image effects can have more then one effects
+filter: grayscale(100%) blur(4px);
+*/
 #click-me {
     /* Centre the button */
     display: block;
